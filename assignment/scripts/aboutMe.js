@@ -1,19 +1,19 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstname = 'Ibrahim';
+let firstName = 'Ibrahim';
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-let lastname = 'Nur';
+let lastName = 'Nur';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullname = 'Ibrahim Nur';
+let fullName = 'Ibrahim Nur';
 // 4 - Console log the value of `fullName`
-console.log( 'the value of fullName is', Ibrahim Nur);
+console.log('fullName');
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckynumber = 7;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
-console.log();
+console.log(' My name is Ibrahim, and i think 7 is a winner');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -23,9 +23,9 @@ let pets = 0;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 0;
 // 11 - Add two pets to your `pets` variable
-pets +
+pets
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 1;
+const ALLOWED_PETS = 1;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
