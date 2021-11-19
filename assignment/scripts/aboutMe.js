@@ -35,8 +35,12 @@ const ALLOWED_PETS = 1;
 console.log( 'The amount of pets i can ever have is:', ALLOWED_PETS );
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
-
+if( 'adventurous == true'){
+    console.log( 'Adventerous are great');
+}
+else{
+    console.log( 'How about we stay home');
+}
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 
