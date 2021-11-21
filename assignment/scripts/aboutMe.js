@@ -49,7 +49,7 @@ adventurous = 'true';
 if ( luckyNumber == adventurous){
    console.log( 'they are not the same');
 }
-else if ( luckyNumber == 2 || adventurous == 'true'){
+else if ( luckyNumber == 2 && adventurous == 'true'){
    console.log( 'Roll the dice');
 }
 else{
@@ -60,6 +60,12 @@ else{
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+pets = 2;  
+
+if( pets == 2 ){
+  console.log( 'Oh no, i have too many pets!');
+}
+
 
 // STRETCH GOALS:
 
