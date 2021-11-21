@@ -37,8 +37,7 @@ console.log( 'The amount of pets i can ever have is:', ALLOWED_PETS );
 // if it's not true, console log "How about we stay home?"
 if( adventurous == 'false'){
     console.log( 'adventerous are great!');
-}
-else{
+} else{
     console.log( 'How about we stay home');
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
@@ -48,11 +47,9 @@ adventurous = 'true';
 
 if ( luckyNumber == adventurous){
    console.log( 'they are not the same');
-}
-else if ( luckyNumber == 2 && adventurous == 'true'){
+} else if ( luckyNumber == 2 && adventurous == 'true'){
    console.log( 'Roll the dice');
-}
-else{
+} else{
     console.log( 'different, neither is 2 or true');
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -74,6 +71,15 @@ if( pets == 2 ){
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+let mostPets = 3;
+friendsPets = 0;
+pets = 2;
+if( mostPets >= pets + friendsPets ){ 
+    console.log( 'mostPets');
+}
+
+
+
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
