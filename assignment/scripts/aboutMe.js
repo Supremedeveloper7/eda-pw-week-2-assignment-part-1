@@ -18,7 +18,7 @@ console.log( 'The lucky number is:', luckyNumber );
 // Refer back to the videos if you need help with this one.
 console.log( 'My name is ' + fullName + ' and i think ' + 7 + ' is a winner! ' );
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = 'false';
+let adventurous = true;
 // 8  - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'Cheesecake';
 console.log( 'My favorite food is:', food );
@@ -31,11 +31,11 @@ let friendsPets = 0;
 pets +=2;
 console.log( 'Went to the pet shop got cheetah:', pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const ALLOWED_PETS = 1;
-console.log( 'The amount of pets i can ever have is:', ALLOWED_PETS );
+const allowedPets = 1;
+console.log( 'The amount of pets i can ever have is:', allowedPets );
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if( adventurous == 'false'){
+if( adventurous == true){
     console.log( 'adventerous are great!');
 } else{
     console.log( 'How about we stay home');
@@ -43,26 +43,25 @@ if( adventurous == 'false'){
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 luckyNumber = 2;
-adventurous = 'true';
+adventurous = true;
 
-if ( luckyNumber == adventurous){
-   console.log( 'they are not the same');
-} else if ( luckyNumber == 2 && adventurous == 'true'){
-   console.log( 'Roll the dice');
-} else{
-    console.log( 'different, neither is 2 or true');
+if ( luckyNumber ===2 && adventurous ===true){
+  console.log( 'Roll the dice!');
 }
+ 
+
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-pets = 2;  
-
-if( pets == 2 ){
-  console.log( 'Oh no, i have too many pets!');
+if ( pets < allowedPets){
+  console.log( 'I can have more pets!');
+} else if ( pets === allowedPets){
+   console.log( 'I have enough pets');
+} else {
+    console.log( 'Oh no, i have too many pets!');
 }
-
 
 // STRETCH GOALS:
 
